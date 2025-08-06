@@ -41,4 +41,4 @@ class ItemPublic(ItemBase):
 
 class ItemsPublic(SQLModel):
     data: list[ItemPublic]
-    count: int 
+    count: int
